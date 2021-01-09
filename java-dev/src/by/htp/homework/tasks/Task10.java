@@ -1,0 +1,13 @@
+package by.htp.homework.tasks;
+//С помощью оператора while напишите программу вывода всех четных чисел в диапазоне от 2 до 100 включительно. 
+public class Task10 {
+	public static void main(String[] args) {
+		int x = 2;
+		while (x <= 100) {
+			if (x % 2 == 0) {
+				System.out.println(x);
+			}
+			x++;
+		}
+	}
+}
